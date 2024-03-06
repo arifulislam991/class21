@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        Header area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+header{
+    background-color: #f6f9f9;
+    padding: 30px 0;
+}
+.strict-menu{
+    
+}
+.strict-menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.strict-menu ul li a{
+    display: block;
+    padding: 0 28px;
+    font-size: 20px;
+    color: #454444;
+    text-transform: capitalize;
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        banner area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+.strict-banner{
+    background: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 160px 0 80px;
+    background-attachment: fixed;
+}
+.strict-banner-top{}
+.strict-banner-top h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+.strict-banner-top p{
+    color: #fff;
+    font-size: 20px;
+    border-top: 2px solid #15a4fa;
+    display: inline-block;
+    padding: 35px 20px;
+}
+.strict-banner-buttom{}
+.strict-banner-buttom button{
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    padding: 10px 25px;
+}
+.strict-banner-buttom a{
+    display: block;
+    margin-top: 170px;
+    color: #fff;
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        about area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+.strict-about{
+    background-color: #f5f9f9;
+    padding: 70px 0;
+}
+.strict-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.strict-title h2{
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 700;
+}
+.strict-about p{
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        service area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+
+.strict-service{
+    padding: 70px 0;
+    background-color: #fff;
+}
+.strict-service-item{}
+.strict-service-icon{
+    width: 65px;
+    height: 65px;
+    background: linear-gradient(90deg #47b0ff 50%,#5fc3ff 50%);
+    color: #fff;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+.strict-service-text{
+    text-align: center;
+    padding: 0 23px;
+}
+.strict-service-text h5{
+    font-size: 22px;
+    color: #2d3950;
+}
+.strict-service-text p{
+    font-size: 15px;
+    color: #999;
+}
