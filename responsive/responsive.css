@@ -1,0 +1,13 @@
+@media(max-width:991px){
+    .strict-menu{
+        display: none;
+    }
+    .strict-mobile-menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .strict-mobile-menu span{
+        font-size: 25px;
+        color: #454444;
+    }
+}

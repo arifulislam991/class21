@@ -94,6 +94,10 @@ header{
     font-size: 40px;
     font-weight: 700;
 }
+.strict-title p{
+    color: #909090;
+    font-size: 15px;
+}
 .strict-about p{
     color: #999;
     font-size: 20px;
@@ -111,7 +115,7 @@ header{
 .strict-service-icon{
     width: 65px;
     height: 65px;
-    background: linear-gradient(90deg #47b0ff 50%,#5fc3ff 50%);
+    background: linear-gradient(90deg, #47b0ff 50%,#5fc3ff 50%);
     color: #fff;
     font-size: 35px;
     display: flex;
@@ -130,4 +134,119 @@ header{
 .strict-service-text p{
     font-size: 15px;
     color: #999;
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        strict work
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+.strict-work{
+    background-color: #f6f9f9;
+    padding: 80px 0;
+}
+.strict-work-img{
+    position: relative;
+    margin-bottom: 25px;
+}
+.strict-work-img img{
+    width: 100%;
+}
+
+.strict-work-overlay{
+    background-color: rgba(21, 164, 250, 0.9);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+.strict-work-overlay:hover{
+    opacity: 1;
+}
+
+.strict-work-overlay ul{
+    display: flex;
+}
+.strict-work-overlay ul li{
+    border: 1px solid #ffffff;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strict-work-overlay ul li a{
+    color: #fff;
+    
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        strict contact
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+.strict-contact{
+    background: url('../images/road.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.strict-contact-overlay{
+    background-color: rgba(45, 57, 79, 0.9);
+    padding: 80px 0;
+}
+.strict-contact .strict-title h2{
+    color: #ffffff;
+}
+
+.strict-contact form input,
+.strict-contact form textarea{
+    background-color: transparent;
+}
+.strict-form-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.strict-form-sub label{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.strict-form-submit input{
+    border: 1px solid #15a3f9;
+    padding: 5px 30px;
+    color: #fff;
+}
+/* =-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-= 
+                        footer area
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+footer{
+    background: #f5f9f9;
+    padding: 20px 0;
+}
+.strict-copyright p{
+    margin-bottom: 0;
+    color: #999;
+    font-size: 15px;
+}
+.strict-social{}
+.strict-social ul{ 
+    display: flex;
+    justify-content: end;
+}
+.strict-social ul li{
+    width: 35px;
+    height: 35px;
+    background-color: #15a3f9;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strict-social ul li a{
+    color: #fff;
 }
