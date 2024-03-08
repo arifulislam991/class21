@@ -250,3 +250,9 @@ footer{
 .strict-social ul li a{
     color: #fff;
 }
+input::placeholder {
+    color:#999999 !important;
+}
+textarea::placeholder {
+    color:#999999 !important;
+}
