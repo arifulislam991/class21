@@ -1,2 +1,2 @@
-# class21
+
 #strict
